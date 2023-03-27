@@ -1,4 +1,5 @@
-void main() {
+void main()
+{
   String heading = "\t DETAILS OF STUDENTS";
   String name = "ayyappadas";
   String address =
