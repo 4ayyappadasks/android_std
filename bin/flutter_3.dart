@@ -1,6 +1,6 @@
 void main()
 {
-  // variable variable_name ="name",num
+  // variable variable_name ="name"; ,,, variable variable_name =num;
 String name = "ayyappadas";
 int age = 23;
 int phone = 9446422041;
@@ -10,7 +10,9 @@ String email = "ayyappanks141@gamail.com";
 //ptint as output
 
 print("my name is : $name");
+print(name);
 print("am $age year old");
+print(age);
 print("my mobile no is $phone");
 print("mark obtained: $mark");
 print("mail : $email");

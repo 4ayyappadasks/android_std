@@ -1,5 +1,6 @@
-class Maths{
-/// instentance variable {
+class Maths
+{
+/// instentance variable
   int a = 1;
   int b = 2;
 
@@ -7,11 +8,17 @@ class Maths{
   static int c = 3;
 
   ///userdefined
-  void add() {
+  void add()
+  {
     int d = 4;
     print(d);
   }
+
 }
+
+
+
+
  void main()
  {
    Maths ab = Maths();

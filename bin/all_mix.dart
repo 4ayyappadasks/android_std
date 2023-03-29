@@ -2,11 +2,12 @@ import 'dart:io';
 void main()
 {
   int a = 50;
-  print (a);
   String b ="appu";
-  print (b);
   double c = 50.2;
+  print (a);
+  print (b);
   print (c);
+
 
 
   print("enter in the order of int,string,double");

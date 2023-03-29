@@ -9,7 +9,7 @@ class Phones
 
 void main()
 {
-  Phones p1 = Phones();
+  Phones p1 = Phones(); /// classname object_name = classname();
   print("details");
   print("modelname =${p1.modelname = "phone_14"}");
   print("year  = ${p1.year = 2022}");
@@ -18,7 +18,7 @@ void main()
 
   Phones p2 = Phones();
   print("details");
-  print("modelname =${p2.modelname = "phone_14"}");
-  print("year  = ${p2.year = 2022}");
-  print("types_of_screen = ${p2.type_of_screen = "amoled"}");
+  print("modelname =${p2.modelname = "phone_13"}");
+  print("year  = ${p2.year = 2021}");
+  print("types_of_screen = ${p2.type_of_screen = "ipslcd"}");
 }
