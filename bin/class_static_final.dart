@@ -8,7 +8,7 @@ class Details
   var fav_sub;
   ///static variables
   static var class_time_period = "4"; /// value can be changed,but common for all
-  final String fixed_time = "three month";/// value cant be changed,but common for all
+  final String fixed_time = "three month";/// value cant be changed,eannal ithu instace variable nte koode aanu define aakunne
 }
 
 void main()
