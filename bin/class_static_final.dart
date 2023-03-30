@@ -21,7 +21,8 @@ void main()
   print("time period of class   = ${Details.class_time_period}");
   /// value cant be changed since in Details.class_time_period if fixed with string.
   /// print("time period of class,trying to change = ${Details.class_time_period = 33}");
-  print("fixed time of course   = ${st1.fixed_time}");/// final eanna sanam eallavrkkum oolla sanam aanu but eallavarkkum same aanu
+  print("fixed time of course   = ${st1.fixed_time}");
+  /// final eanna sanam eallavrkkum oolla sanam aanu but eallavarkkum same aanu
 
   Details st2 = Details();
   print("enter new details");
@@ -31,6 +32,8 @@ void main()
   st2.age = int.parse(stdin.readLineSync()!);
   print("\n enter fav_sub");
   st2.fav_sub =stdin.readLineSync();
+  print("class_time_period = ${Details.class_time_period}");
+  print("fixed_time = ${st2.fixed_time}");
 
   print("\t final details");
   print("details of student 1,pre_entered");
