@@ -24,7 +24,7 @@ void main()
 
   ///ASSIGNMENT OPERATOR
 
-  print("\n ASSIGNMENT OPERATOR");
+  print("\n \t\tASSIGNMENT OPERATOR");
   print(" a = b  : {$a = $b}   = ${a = b}");
   print(" a += b : $a += $b     = ${a += b}");
   print(" a -= b : {$a -= $b}   = ${a -= b}");
@@ -35,7 +35,7 @@ void main()
 
   /// POSTFIX AND PREFIX
 
-  print("\n POSTFIX AND PREFIX");
+  print("\n\t\t POSTFIX AND PREFIX");
   int x = 100;
   print("prefix  : ++x = ${++x}");
   print("           changed value of x: ${x} ");
@@ -50,15 +50,16 @@ void main()
   print("           changed value of x: ${x} ");
 
   /// TYPE TEST OPERATOR is or is!
-  print("\t TYPE TEST OPERATOR");
+  print("\n\t\t TYPE TEST OPERATOR");
   print("\n weather $x is string : ${x is String}");
   print("\n weather $x is string : ${x is! String}");
 
   ///RELATIONAL OPERATOR
 
+  print("\n\t\t RELATIONAL OPERATOR");
   int z = 90;
   int e = 10;
-  print("\n\nvalue of z = $z ,value of e = $e");
+  print("value of z = $z ,value of e = $e");
   print("\n z>e ${z>e}");
   print("\n z<e ${z<e}");
   print("\n z=e ${z==e}");
