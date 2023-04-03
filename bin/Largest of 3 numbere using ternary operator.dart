@@ -13,6 +13,6 @@ void main()
   print("enter the 3rd number");       /// a  b  c
   c = int.parse(stdin.readLineSync()!);/// 1  5  3
   d = (a>b && a>c ) ? a : b>c ? b:c ;/// adhyam 1>5 && 1>3 THETTU SO 5>3 sheriyanel ans =b or ans =c
-  print(d);
+  print("$d is the largest no");
 
 }
