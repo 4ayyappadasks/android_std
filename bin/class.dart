@@ -1,12 +1,12 @@
 
 class Students
 { ///instanteence variable
-  String? name;
-  int? age;
-  int? phone;
-  double? cgpa;
-  String?email;
-static String course1 = "flutter";
+       String? name;
+       int? age;
+       int? phone;
+       double? cgpa;
+       String?email;
+static String course1 = "flutter";/// static eannal stored value canbe changed but variable type marula,also common for all
 static String course2 = "python";
 }
 
