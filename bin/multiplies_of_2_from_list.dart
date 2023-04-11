@@ -13,12 +13,12 @@ void main()
   print("\n\n");
   for (int b = 0; b < a.length; b++)
   {
-    if(a[b]>0)
-    {
+    ///if(a[b]>0)
+    ///{
       if (a[b] % 2 == 0)
       {
         print(a[b]);
       }
-    }
+   ///}
   }
 }
