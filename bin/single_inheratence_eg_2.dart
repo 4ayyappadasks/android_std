@@ -1,6 +1,6 @@
-class Car
+class Car // Hierarchical inheritance
 {
-  String? company_name;
+  String? company_name; // mattam varunna sadanakkal
   int? seeting_cappacity;
   int? milage;
   String? color;
@@ -8,7 +8,7 @@ class Car
 
 class porsche extends Car
 {
-  String model = "xxi";
+  String model = "xxi"; // specific aaayittulla caril commen aayittullathu
   String type = "sports";
 }
 

@@ -8,9 +8,9 @@ class my_self
 
 class ten_s_th extends my_self
 {
-  int classs = 10;
+  int classs = 10;/// instance variable
 
-  void clas_details()
+  void clas_details()/// user defined class
   {
     print("enter the marks of 10th");
     print("maths :");
@@ -26,9 +26,9 @@ class ten_s_th extends my_self
 
 class twelth extends ten_s_th
 {
-  int classs = 12;
+  int classs = 12;/// instance variable
 
-  void clas_details()
+  void clas_details()/// user defined class
   {
     print("enter the marks of 12th");
     print("maths :");
@@ -61,7 +61,6 @@ class twelth extends ten_s_th
     print("class=${obj1.classs}");
     obj1.clas_details();
 
-
     print("\n12th details");
     ten_s_th obj2 = twelth();
     print("class=${obj2.classs}");
@@ -71,4 +70,13 @@ class twelth extends ten_s_th
     current_time obj3 = current_time();
     print("current course : ${obj3.post}");
     print("course duration : ${obj3.duration} months");
+
+    // print("\n\n \t\t DETAILS");
+    // print("name: ${obj.name}");
+    // print("age:${obj.age}");
+    // print("address:${my_self.address}");
+    // print("\n 10th grade");
+    // print("current post:${obj3.post}");
+    // print("post duration${obj3.duration}");
+    // obj1.clas_details();
   }
