@@ -44,6 +44,5 @@ void main()
 {
   print("details");
   child1 obj = child1();
-  print(obj.fun1("name", 1, "aks"));
 }
 
