@@ -33,7 +33,8 @@ void main()
   try
   {
     check_age();
-  } catch (e)
+  }
+  catch (e)
   {
     print(e.toString());
   }

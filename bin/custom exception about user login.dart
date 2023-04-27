@@ -1,9 +1,17 @@
 import 'dart:io';
 
-import 'package:test/expect.dart';
+class message implements Exception
+{
+  String? er_msg;
 
-import 'polymorphism_eg_1.dart';
-void main() async
+  message([ this.er_msg]);
+  @override
+  String toString()
+  {
+    return "error occured since $er_msg";
+  }
+}
+void details_check()
 {
   String usrname = "appu";
   dynamic usrpassword = "aks@123";
@@ -11,28 +19,42 @@ void main() async
   String? uname = stdin.readLineSync();
   print("enter your password:");
   dynamic upass = stdin.readLineSync();
-
-  if(usrname == uname && usrpassword== upass)
+  {
+    if (usrname == uname && usrpassword == upass)
     {
-      print("login sucess \n \t\t get otp for confermtion");
-      print("click enter to get otp");
-      print("");
-    }
-  else
-    {
-      print("time out");
-    }
-
-
-  Future.delayed(Duration(seconds:2),()
+      print("login sucess \n \t\t\t GET OTP ");
+      print("\t\t...................\n \t\twait for 5 seconds");
+      Future.delayed(Duration(seconds: 5), ()
       {
         int otp = 123;
-        int ottp =123;
-        prints("enter otp");
-        //int ottp = int.parse(stdin.readLineSync()!);
-            if(otp == ottp)
-          {
-            print("login sucess");
-           }
+        //int ottp =123;
+        print("enter otp");
+        int ottp = int.parse(stdin.readLineSync()!);
+        if (otp == ottp)
+        {
+          print("login sucess \nTHANK YOU");
+        }
+        else
+        {
+          print("otp error");
+        }
       });
+    }
+    else
+    {
+      throw message("username or password error");
+    }
+  }
 }
+
+  void main()
+  {
+    try
+    {
+      details_check();
+    }
+    catch(e)
+    {
+      print(e.toString());
+    }
+  }
